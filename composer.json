@@ -1,0 +1,25 @@
+{
+    "name": "gameserverapp/php-api-wrapper",
+    "description": "Official GameserverApp.com API wrapper",
+    "keywords": ["GameserverApp", "Wrapper", "API"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max Vaessen",
+            "email": "maxvaessen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "GameserverApp\\ApiWrapper\\": "src/"
+        }
+    }
+}
