@@ -1,5 +1,5 @@
 The API Wrapper can be used to quickly load data from the GameserverApp.com API.
-You can connect with the API using your `Client ID` and `Client Secret`, which can be found on your API page: [https://dash.gameserverapp.com/community/api](https://dash.gameserverapp.com/community/api).
+You can connect with the API using your `Client ID` and `Client Secret`, which can be found on your API page: [https://dash.gameserverapp.com/configure/api](https://dash.gameserverapp.com/configure/api).
 
 The API is rate-limited, meaning you can only make so many calls per minute. If you make more calls, your API keys can be (temporarily) disabled. Please keep this in mind when designing your application. For example, save the data you fetch from the API to a database or cache the output for a certain time.
 
