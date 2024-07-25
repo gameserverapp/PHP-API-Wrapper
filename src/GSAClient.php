@@ -79,7 +79,7 @@ class GSAClient
      */
     public function clusterStat($uuid, $type = 'online-count-last-7-days')
     {
-        return $this->request('get', 'v1','cluster/' . $uuid . '/stat/' . $type);
+        return $this->request('get', 'v1','cluster/' . $uuid . '/stats/' . $type);
     }
 
     ////////// SERVER ENDPOINTS //////////
@@ -160,7 +160,7 @@ class GSAClient
      */
     public function userStat($uuid, $type = 'hours-played')
     {
-        return $this->request('get', 'v1','user/' . $uuid . '/stat/' . $type);
+        return $this->request('get', 'v1','user/' . $uuid . '/stats/' . $type);
     }
 
     public function users()
